@@ -35,7 +35,7 @@
 
 (defvar *edbc-process-id* nil
   "EDBC process id")
-
+
 
 ;;; Required parameters in driver
 
@@ -47,13 +47,12 @@
 
 (defvar edbc-output-format-hook nil
   "Hooks to parse the SQL output.")
+
 
-
 ;;; Required interface
 (defun edbc-command-options (options)
   options)
-
-
+
 
 (defun string-trim (s)
   "Returns a copy of the string, with leading and trailing whitespace omitted."
