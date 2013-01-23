@@ -1,29 +1,35 @@
-;;;; EDBC is Emacs-Lisp-based data access technology.
-;;;; It is an acronym Emacs-Lisp Database Connectivity, with DB being
-;;;; universally recognized as the abbreviation for database. This
-;;;; technology is an API for the Emacs-Lisp programming language that
-;;;; defines how a client may access a data. It provides methods for
-;;;; querying and updating data in a database. EDBC is oriented towards
-;;;; relational databases.
-;;;;
-;;;; Author: Zhang, Zepeng (Joe) <redraiment@gmail.com>
-;;;; Time-stamp: <2012-12-11 CST>
-;;;; Copyright: (C) 2012 Zhang, Zepeng
-;;;;
-;;;; This program is free software; you can redistribute it and/or
-;;;; modify it under the terms of the GNU General Public License as
-;;;; published by the Free Software Foundation; either version 2, or (at
-;;;; your option) any later version.
-;;;;
-;;;; This program is distributed in the hope that it will be useful, but
-;;;; WITHOUT ANY WARRANTY; without even the implied warranty of
-;;;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-;;;; General Public License for more details.
-;;;;
-;;;; You should have received a copy of the GNU General Public License
-;;;; along with this program ; see the file COPYING.  If not, write to
-;;;; the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
-;;;; Boston, MA 02111-1307, USA.
+;;; edbc.el --- Emacs database access technology
+
+;; Copyright (C) 2012 Zhang, Zepeng
+
+;; Author: Zhang, Zepeng (Joe) <redraiment@gmail.com>
+;; Time-stamp: <2012-12-11 CST>
+
+;; This program is free software; you can redistribute it and/or
+;; modify it under the terms of the GNU General Public License as
+;; published by the Free Software Foundation; either version 2, or (at
+;; your option) any later version.
+;;
+;; This program is distributed in the hope that it will be useful, but
+;; WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+;; General Public License for more details.
+;;
+;; You should have received a copy of the GNU General Public License
+;; along with this program ; see the file COPYING.  If not, write to
+;; the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+;; Boston, MA 02111-1307, USA.
+
+;;; Commentary:
+
+;; It is an acronym Emacs-Lisp Database Connectivity, with DB being
+;; universally recognized as the abbreviation for database. This
+;; technology is an API for the Emacs-Lisp programming language that
+;; defines how a client may access a data. It provides methods for
+;; querying and updating data in a database. EDBC is oriented towards
+;; relational databases.
+
+;; Code:
 
 (require 'cl)
 
